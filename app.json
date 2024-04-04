@@ -1,0 +1,191 @@
+{
+  "name": "YourAppName",
+  "description": "Description of your app",
+  "env": {
+    "API_ID": {
+      "description": "API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Bot Token",
+      "required": true
+    },
+    "PORT": {
+      "description": "Port number",
+      "required": true
+    },
+    "PICS": {
+      "description": "Bot pics URLs",
+      "required": false
+    },
+    "ADMINS": {
+      "description": "Bot admins",
+      "required": true
+    },
+    "INDEX_CHANNELS": {
+      "description": "Index channels",
+      "required": false
+    },
+    "AUTH_CHANNEL": {
+      "description": "Auth channel",
+      "required": false
+    },
+    "LOG_CHANNEL": {
+      "description": "Log channel",
+      "required": true
+    },
+    "IS_FSUB": {
+      "description": "Is FSUB enabled",
+      "required": false
+    },
+    "SUPPORT_GROUP": {
+      "description": "Support group",
+      "required": true
+    },
+    "OPENAI_API": {
+      "description": "OpenAI API",
+      "required": false
+    },
+    "DATABASE_URL": {
+      "description": "MongoDB URL",
+      "required": true
+    },
+    "DATABASE_NAME": {
+      "description": "Database name",
+      "required": false
+    },
+    "COLLECTION_NAME": {
+      "description": "Collection name",
+      "required": false
+    },
+    "SUPPORT_LINK": {
+      "description": "Support link",
+      "required": false
+    },
+    "OWNER_USERNAME": {
+      "description": "Owner username",
+      "required": false
+    },
+    "UPDATES_LINK": {
+      "description": "Updates link",
+      "required": false
+    },
+    "FILMS_LINK": {
+      "description": "Films link",
+      "required": false
+    },
+    "TUTORIAL": {
+      "description": "Tutorial link",
+      "required": false
+    },
+    "VERIFY_TUTORIAL": {
+      "description": "Verify tutorial link",
+      "required": false
+    },
+    "DELETE_TIME": {
+      "description": "Delete time",
+      "required": true
+    },
+    "CACHE_TIME": {
+      "description": "Cache time",
+      "required": true
+    },
+    "MAX_BTN": {
+      "description": "Max buttons",
+      "required": true
+    },
+    "LANGUAGES": {
+      "description": "Supported languages",
+      "required": true
+    },
+    "IMDB_TEMPLATE": {
+      "description": "IMDB template",
+      "required": false
+    },
+    "FILE_CAPTION": {
+      "description": "File caption",
+      "required": false
+    },
+    "SHORTLINK_URL": {
+      "description": "Shortlink URL",
+      "required": false
+    },
+    "SHORTLINK_API": {
+      "description": "Shortlink API",
+      "required": false
+    },
+    "VERIFY_EXPIRE": {
+      "description": "Verify expiration time",
+      "required": true
+    },
+    "WELCOME_TEXT": {
+      "description": "Welcome text",
+      "required": false
+    },
+    "INDEX_EXTENSIONS": {
+      "description": "Index extensions",
+      "required": true
+    },
+    "IS_VERIFY": {
+      "description": "Is verification enabled",
+      "required": false
+    },
+    "AUTO_DELETE": {
+      "description": "Auto delete enabled",
+      "required": false
+    },
+    "WELCOME": {
+      "description": "Welcome enabled",
+      "required": false
+    },
+    "PROTECT_CONTENT": {
+      "description": "Content protection enabled",
+      "required": false
+    },
+    "LONG_IMDB_DESCRIPTION": {
+      "description": "Long IMDB description enabled",
+      "required": false
+    },
+    "LINK_MODE": {
+      "description": "Link mode enabled",
+      "required": false
+    },
+    "AUTO_FILTER": {
+      "description": "Auto filter enabled",
+      "required": false
+    },
+    "IMDB": {
+      "description": "IMDB enabled",
+      "required": false
+    },
+    "SPELL_CHECK": {
+      "description": "Spell check enabled",
+      "required": false
+    },
+    "SHORTLINK": {
+      "description": "Shortlink enabled",
+      "required": false
+    },
+    "PAYMENT_QR": {
+      "description": "Payment QR URL",
+      "required": false
+    },
+    "IS_STREAM": {
+      "description": "Is stream enabled",
+      "required": false
+    },
+    "BIN_CHANNEL": {
+      "description": "BIN channel",
+      "required": true
+    },
+    "URL": {
+      "description": "URL",
+      "required": true
+    }
+  }
+    }
+    
