@@ -4,188 +4,233 @@
   "env": {
     "API_ID": {
       "description": "API ID",
-      "required": true
+      "required": true,
+      "example": "1234567"
     },
     "API_HASH": {
       "description": "API Hash",
-      "required": true
+      "required": true,
+      "example": "abcdef1234567890"
     },
     "BOT_TOKEN": {
       "description": "Bot Token",
-      "required": true
+      "required": true,
+      "example": "1234567890:ABCDEFghijklmnopqrstuvwxYZ123456789"
     },
     "PORT": {
       "description": "Port number",
-      "required": true
+      "required": true,
+      "example": "80"
     },
     "PICS": {
       "description": "Bot pics URLs",
-      "required": false
+      "required": false,
+      "example": "https://example.com/pic1.jpg https://example.com/pic2.jpg"
     },
     "ADMINS": {
       "description": "Bot admins",
-      "required": true
+      "required": true,
+      "example": "1234567890 9876543210"
     },
     "INDEX_CHANNELS": {
       "description": "Index channels",
-      "required": false
+      "required": false,
+      "example": "-1001234567890 -1009876543210"
     },
     "AUTH_CHANNEL": {
       "description": "Auth channel",
-      "required": false
+      "required": false,
+      "example": "-1001234567890"
     },
     "LOG_CHANNEL": {
       "description": "Log channel",
-      "required": true
+      "required": true,
+      "example": "-1001234567890"
     },
     "IS_FSUB": {
       "description": "Is FSUB enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "SUPPORT_GROUP": {
       "description": "Support group",
-      "required": true
+      "required": true,
+      "example": "-1001234567890"
     },
     "OPENAI_API": {
       "description": "OpenAI API",
-      "required": false
+      "required": false,
+      "example": "your_openai_api_key"
     },
     "DATABASE_URL": {
       "description": "MongoDB URL",
-      "required": true
+      "required": true,
+      "example": "mongodb://username:password@hostname:port/database"
     },
     "DATABASE_NAME": {
       "description": "Database name",
-      "required": false
+      "required": false,
+      "example": "Cluster0"
     },
     "COLLECTION_NAME": {
       "description": "Collection name",
-      "required": false
+      "required": false,
+      "example": "Files"
     },
     "SUPPORT_LINK": {
       "description": "Support link",
-      "required": false
+      "required": false,
+      "example": "https://t.me/HA_Bots_Support"
     },
     "OWNER_USERNAME": {
       "description": "Owner username",
-      "required": false
+      "required": false,
+      "example": "https://t.me/Hansaka_Anuhas"
     },
     "UPDATES_LINK": {
       "description": "Updates link",
-      "required": false
+      "required": false,
+      "example": "https://t.me/HA_Bots"
     },
     "FILMS_LINK": {
       "description": "Films link",
-      "required": false
+      "required": false,
+      "example": "https://t.me/HA_Films_World"
     },
     "TUTORIAL": {
       "description": "Tutorial link",
-      "required": false
+      "required": false,
+      "example": "https://t.me/HA_Bots"
     },
     "VERIFY_TUTORIAL": {
       "description": "Verify tutorial link",
-      "required": false
+      "required": false,
+      "example": "https://t.me/HA_Bots"
     },
     "DELETE_TIME": {
       "description": "Delete time",
-      "required": true
+      "required": true,
+      "example": "3600"
     },
     "CACHE_TIME": {
       "description": "Cache time",
-      "required": true
+      "required": true,
+      "example": "300"
     },
     "MAX_BTN": {
       "description": "Max buttons",
-      "required": true
+      "required": true,
+      "example": "10"
     },
     "LANGUAGES": {
       "description": "Supported languages",
-      "required": true
+      "required": true,
+      "example": "english hindi telugu tamil kannada malayalam"
     },
     "IMDB_TEMPLATE": {
       "description": "IMDB template",
-      "required": false
+      "required": false,
+      "example": "your_imdb_template"
     },
     "FILE_CAPTION": {
       "description": "File caption",
-      "required": false
+      "required": false,
+      "example": "your_file_caption"
     },
     "SHORTLINK_URL": {
       "description": "Shortlink URL",
-      "required": false
+      "required": false,
+      "example": "mdiskshortner.link"
     },
     "SHORTLINK_API": {
       "description": "Shortlink API",
-      "required": false
+      "required": false,
+      "example": "36f1ae74ba1aa01e5bd73bdd0bc22aa915443501"
     },
     "VERIFY_EXPIRE": {
       "description": "Verify expiration time",
-      "required": true
+      "required": true,
+      "example": "86400"
     },
     "WELCOME_TEXT": {
       "description": "Welcome text",
-      "required": false
+      "required": false,
+      "example": "Welcome to our bot!"
     },
     "INDEX_EXTENSIONS": {
       "description": "Index extensions",
-      "required": true
+      "required": true,
+      "example": "mp4 mkv"
     },
     "IS_VERIFY": {
       "description": "Is verification enabled",
-      "required": false
+      "required": false,
+      "example": "false"
     },
     "AUTO_DELETE": {
       "description": "Auto delete enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "WELCOME": {
       "description": "Welcome enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "PROTECT_CONTENT": {
       "description": "Content protection enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "LONG_IMDB_DESCRIPTION": {
       "description": "Long IMDB description enabled",
-      "required": false
+      "required": false,
+      "example": "false"
     },
     "LINK_MODE": {
       "description": "Link mode enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "AUTO_FILTER": {
       "description": "Auto filter enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "IMDB": {
       "description": "IMDB enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "SPELL_CHECK": {
       "description": "Spell check enabled",
-      "required": false
+      "required": false,
+      "example": "true"
     },
     "SHORTLINK": {
       "description": "Shortlink enabled",
-      "required": false
+      "required": false,
+      "example": "false"
     },
     "PAYMENT_QR": {
       "description": "Payment QR URL",
-      "required": false
+      "required": false,
+      "example": "http://graph.org/file/cacbbea472e5a48ce0d64.jpg"
     },
     "IS_STREAM": {
-      "description": "Is stream enabled",
-      "required": false
+            "description": "Is stream enabled",
+      "required": false,
+      "example": "true"
     },
     "BIN_CHANNEL": {
       "description": "BIN channel",
-      "required": true
+      "required": true,
+      "example": "-1001234567890"
     },
     "URL": {
       "description": "URL",
-      "required": true
+      "required": true,
+      "example": "http://example.com"
     }
   }
-    }
-    
+}
